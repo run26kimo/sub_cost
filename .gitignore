@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-playwright-report
 node_modules
 dist
 dist-ssr
@@ -24,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Playwright
+playwright-report/
+test-results/
+/playwright/.cache/
